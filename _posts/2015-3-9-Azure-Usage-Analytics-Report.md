@@ -7,7 +7,7 @@ Analyzing usage data for Microsoft Azure can be very challenging.  There are doz
 
 **NOTE:  This report only works for organizations that have licensed Azure via an Enterprise Program such as a Microsoft Enterprise Agreement.  Licensing Azure via an Enterprise Program provides you access to the Azure Enterprise Portal and the Azure Billing API which are required for this report.**
 
-Here's a link where you can download the report - [Azure Usage Analytics Report](https://raw.githubusercontent.com/emondek/emondek.github.io/master/_assets/Azure%20Usage%20Analytics%20(API)%20v2.2.xlsx).
+Here's a link where you can download the report - [Azure Usage Analytics Report](/files/Azure%20Usage%20Analytics%20(API)%20v2.2.xlsx).
 
 **Prerequisites**
 
@@ -20,35 +20,35 @@ Here's a link where you can download the report - [Azure Usage Analytics Report]
 1. Log in to the **Azure Enterprise Portal** ([https://ea.azure.com](https://ea.azure.com)).  If you're not set up as an Azure Enterprise Administrator on this portal then you'll need to work with one of the Enterprise Administrators from your organization.
 2. From the home page, grab your **Enrollment Number**
 
-    ![Enrollment Number](https://raw.githubusercontent.com/emondek/emondek.github.io/master/_assets/enrollment_number.png)
+    ![Enrollment Number](/images/enrollment_number.png)
 
 3. Navigate to the **Manage Access** page
 4. Scroll down to the bottom of the **Manage Access** page to the **Usage Api Access Key** section and grab the **Primary Key** or the **Secondary Key**.  You may need to generate one of these keys if they don't exist.  A common issue when first using this report is caused by not grabbing the entire key.  Be sure to use Ctrl+A in the **Primary Key** or **Secondary Key** field to select the entire Access Key.  It's a pretty long string.
 
-    ![Access Key](https://raw.githubusercontent.com/emondek/emondek.github.io/master/_assets/access_key.png)
+    ![Access Key](/images/access_key.png)
 
-5. Now open the **Azure Usage Analytics (API).xlsx** file that you downloaded from the [link](https://raw.githubusercontent.com/emondek/emondek.github.io/master/_assets/Azure%20Usage%20Analytics%20(API)%20v2.2.xlsx) above.
+5. Now open the **Azure Usage Analytics (API).xlsx** file that you downloaded from the [link](/files/Azure%20Usage%20Analytics%20(API)%20v2.2.xlsx) above.
 6. When prompted, click **Enable Editing**
 7. When prompted, click **Enable Content**
 8. FYI, the **Get Started** worksheet contains additional instructions for using the report
 9. Navigate to the **Enrollment Info** worksheet.  The **Enrollment Info** worksheet contains a single table with **Enrollment** and **Key** columns.  It only contains a single row of data.  Replace the existing **Enrollment** and **Key** values with your Enrollment Number and Access Key that you retrieved from the Enterprise Portal above.  Make sure to delete all the characters for the existing Access Key and copy all the characters from your Access Key.  It should look like this when you're done but with your own values.
 
-    ![Enrollment Info](https://raw.githubusercontent.com/emondek/emondek.github.io/master/_assets/enrollment_info.png)
+    ![Enrollment Info](/images/enrollment_info.png)
 
 10. Navigate to the **Usage Analysis** worksheet
 11. In the Excel Ribbon, select the **Data** tab and hit the **Refresh All** button.
 12. If you're prompted to select the authentication type for accessing web content then select **Anonymous** as shown below.  The Azure Billing API uses the access key in the HTTP header for authentication.  It also uses HTTPS to encrypt data in-transit.
 
-    ![Access Web Content](https://raw.githubusercontent.com/emondek/emondek.github.io/master/_assets/access_web_content.png)
+    ![Access Web Content](/images/access_web_content.png)
 
 13. If you're prompted to select privacy levels then select **Organizational** as shown below.
 
-    ![Privacy Levels](https://raw.githubusercontent.com/emondek/emondek.github.io/master/_assets/privacy_levels.png)
+    ![Privacy Levels](/images/privacy_levels.png)
 
 14. The Excel status bar down at the bottom will update with messages as it retrieves data from the Azure Billing API.  Don't be surprised if it takes a few minutes to retrieve all your data which may consist of 100K+ rows.
 15.  Once your data has been retrieved, the PivotTable, PivotCharts and Slicers on the **Usage Analysis** worksheet will update.  It will look something like this but with your own data.
 
-    ![Usage Analysis](https://raw.githubusercontent.com/emondek/emondek.github.io/master/_assets/usage_analysis.png)
+    ![Usage Analysis](/images/usage_analysis.png)
 
 16. The remaining worksheets leverage Power View to show Usage Trend by Department, Usage Trend by Account, etc.
 17. Once you're done analyzing your usage data, save the spreadsheet.  This will save your Enrollment Number and Access Key so that in the future all you have to do is hit **Refresh All** on the **Data** tab to grab your latest usage data.
