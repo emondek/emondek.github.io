@@ -3,7 +3,7 @@ layout: post
 title: Azure Usage Analytics Report
 ---
 
-Analyzing usage data for Microsoft Azure can be very challenging.  There are dozens of different services, each with their own billing meters and rates that can vary by region.  To help simplify this task, I (along with the help of a few colleagues) created a Microsoft Excel-based report that enables you to analyze your Azure usage by department, account, subscription, service, region and time frame.
+Analyzing usage data for Microsoft Azure can be very challenging.  There are dozens of different services, each with their own billing meters and rates that can vary by region.  To help simplify this task, I (along with my colleague Vipul Shah) created a Microsoft Excel-based report that enables you to analyze your Azure usage by department, account, subscription, service, region and time frame.
 
 **NOTE:  This report only works for organizations that have licensed Azure via an Enterprise Program such as a Microsoft Enterprise Agreement.  Licensing Azure via an Enterprise Program provides you access to the Azure Enterprise Portal and the Azure Billing API which are required for this report.**
 
