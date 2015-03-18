@@ -13,7 +13,7 @@ Third, Azure RemoteApp supports both **Directory Sync with Password Sync** and *
 
 OK, so here's a diagram of the environment that we're shooting for:
 
-![Azure RemoteApp Hybrid Collection](/images/azure_remoteapp-hybrid_collection.png)
+![Azure RemoteApp Hybrid Collection](/images/azure_remoteapp_hybrid_collection.png)
 
 You can download the original Microsoft Visio diagram from [here](/files/azure_remoteapp_hybrid_collection.vsdx).     
 
