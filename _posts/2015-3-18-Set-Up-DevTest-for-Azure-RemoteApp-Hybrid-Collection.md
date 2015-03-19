@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploy an Azure RemoteApp Hybrid Collection 
+title: Set Up DevTest for Azure RemoteApp Hybrid Collection 
 ---
 
 Azure RemoteApp Hybrid Collections are great when you need to publish a custom set of applications that run in a domain-joined environment and have access to on-premises resources over a Site-to-Site VPN.  But testing out a Hybrid Collection can be challenging because you need to:
