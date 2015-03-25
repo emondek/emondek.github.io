@@ -31,6 +31,8 @@ So, let's get started...
 
 ###Create the custom template image for Azure RemoteApp###
 
+**NOTE:**  Since publishing this post, the Microsoft Remote Desktop Services team has simplified the process for creating and uploading a custom template image directly from Azure.  Check out the following article for guidance - [How to create a RemoteApp template image in Azure](http://blogs.msdn.com/b/rds/archive/2015/03/17/how-to-create-a-remoteapp-template-image-in-azure.aspx).  If you follow that article then you can skip down to the **Configure the VNet-to-VNet Connection** section. 
+
 The first thing we're going to do is create a custom template image with Notepad++ and Paint.Net installed.  To do this, we're going to follow most of the steps in this article - [How to create a custom template image for RemoteApp](http://azure.microsoft.com/en-us/documentation/articles/remoteapp-create-custom-image/).  But, instead of using an on-premises Windows Hyper-V Server to create a VM for our custom template image, we're going to use a Windows Server 2012 R2 image from the Azure Gallery.  Here are the steps that you need to perform:
 
 1. Spin up a new Azure Virtual Machine based on the latest Windows Server 2012 R2 Datacenter image.
