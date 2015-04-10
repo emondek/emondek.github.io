@@ -17,7 +17,7 @@ Microsoft Azure is evolving very quickly and one of the most common questions th
 
   5. Now you'll see the **Azure service updates** dropdown on the Favorites Bar.  Whenever there's a new update that you haven't read, the **Azure service updates** text will turn bold.
 
-  ![Favories Bar](/images/favorites_bar.png)
+  ![Favorites Bar](/images/favorites_bar.png)
 
 
 
