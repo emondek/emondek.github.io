@@ -11,12 +11,11 @@ Microsoft Azure is evolving very quickly and one of the most common questions th
   2. Click on the big green **Subscribe** button
   3. Click the **Subscribe to this feed** link
   4. In the **Subscribe to this Feed** dialog, check **Add to Favorites Bar** and hit **Subscribe**
-
-
+  
   ![Subscribe to this Feed](/images/subscribe_to_this_feed.png)
-
+  
   5. Now you'll see the **Azure service updates** dropdown on the Favorites Bar.  Whenever there's a new update that you haven't read, the **Azure service updates** text will turn bold.
-
+  
   ![Favorites Bar](/images/favorites_bar.png)
 
 
