@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Azure Usage Analytics Report
+title: Azure Usage Analytics Report - March 2015
 ---
 
 Analyzing usage data for Microsoft Azure can be very challenging.  There are dozens of different services, each with their own billing meters and rates that can vary by region.  To help simplify this task, I (along with my colleague Vipul Shah) created a Microsoft Excel-based report that enables you to analyze your Azure usage by department, account, subscription, service, region and time frame.
@@ -12,7 +12,7 @@ Here's a link where you can download the report - [Azure Usage Analytics Report]
 **Prerequisites**
 
 - Excel 2013 (or newer)
-- Microsoft Power Query for Excel add-in (from Jan. 12th, 2015 or later).  You can download the add-in [here](http://www.microsoft.com/en-us/download/details.aspx?id=39379&CorrelationId=6c71a8d2-343d-43d0-bf65-a77fbf000b47). 
+- Microsoft Power Query for Excel add-in (from Jan. 12th, 2015 or later).  You can download the add-in [here](http://www.microsoft.com/en-us/download/details.aspx?id=39379&CorrelationId=6c71a8d2-343d-43d0-bf65-a77fbf000b47).
 - This report also takes advantage of Power View, Power Pivot, PivotTables and PivotCharts which are all available as part of Office Professional Plus and Office 365 Professional Plus editions, and in the standalone edition of Excel 2013.
 
 **Here are a few steps to help get you started...**
@@ -63,4 +63,3 @@ You can get additional info on the Azure Billing API from these docs:
 **NOTE:  This report is a sample of how you can use Excel and the Azure Billing API to analyze your usage data.  It is NOT a supported tool from Microsoft.  But since it is just a sample, feel free to customize it to meet your specific needs.**
 
 Enjoy!
-
