@@ -6,6 +6,7 @@ title: Azure Usage Analytics Report - August 2015 Update
 This post, and the Azure Usage Analytics Report described within, is an update to the post originally published [here](http://www.edmondek.com/Azure-Usage-Analytics-Report/) in March 2015.
 
 Here are the key updates to this post:
+
 - A new version of the Azure Enterprise Portal ([https://ea.azure.com](https://ea.azure.com)) was released in July 2015.  The steps and screen shots in this post have been updated for the new portal.
 - The detailed usage data available via the Azure Billing API was updated in July 2015 to include new columns and some column name changes.  The updated report linked in this post supports these changes.
 - I've also included steps for non-US based users to update this report for their local currency.
@@ -60,6 +61,7 @@ Here's a link where you can download the report - [Azure Usage Analytics Report]
 16. The remaining worksheets leverage Power View to show Usage Trend by Department, Usage Trend by Account, etc.
 17. Once you're done analyzing your usage data, save the spreadsheet.  This will save your Enrollment Number and Access Key so that in the future all you have to do is hit **Refresh All** on the **Data** tab to grab your latest usage data.
 
+
 **Update the report for non-US currencies**
 
 Here are a few steps that allow you to change the currency from USD to your local currency:
@@ -81,6 +83,7 @@ Here are a few steps that allow you to change the currency from USD to your loca
 15. You can now close and save the **Azure Usage Analytics (API) Aug 2015.xlsx** file
 
 **NOTE: Number formatting is set in Windows Control Panel -> Clock, Language and Region -> Change date, time or number formats.  It's possible that your Windows number format (e.g. period for decimal separator, comma for thousands separator) may be set differently than the number format used in the usage data.  If this is the case then you can either change your Windows number format to match the usage data or update the PowerQuery to replace the separators.
+
 
 **Additional Info**
 
