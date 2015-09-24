@@ -10,12 +10,18 @@ To test disk performance, we're going to use Flexible I/O Tester (fio).  You can
 To get started, you need to install fio.  Here are the steps:
 
 For CentOS/RedHat/Oracle 6:
-1. wget http://pkgs.reopforge.org/fio/fio-2.1.7-1.el6.rf.x86_64.rpm
-2. yum install fio*.rpm
+
+  ```shell
+  wget http://pkgs.reopforge.org/fio/fio-2.1.7-1.el6.rf.x86_64.rpm
+  yum install fio*.rpm
+  ```
 
 For CentOS/RedHat/Oracle 7:
-1. wget http://pkgs.reopforge.org/fio/fio-2.1.7-1.el7.rf.x86_64.rpm
-2. yum install fio*.rpm
+
+  ```shell
+  wget http://pkgs.reopforge.org/fio/fio-2.1.7-1.el7.rf.x86_64.rpm
+  yum install fio*.rpm
+  ```
 
 For other Linux distributions, check out the [fio GitHub repository](https://github.com/axboe/fio).
 
