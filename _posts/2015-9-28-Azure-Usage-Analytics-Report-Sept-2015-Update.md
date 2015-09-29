@@ -5,7 +5,7 @@ title: Azure Usage Analytics Report - September 2015 Update
 
 This is just a minor update to the report.  A number of users have started receiving the following error:
 
-    ![Consumed Quantity Error](/images/consumed_quantity_error.png)
+![Consumed Quantity Error](/images/consumed_quantity_error.png)
 
 The September 2015 update has a small change in the Power Query to prevent this error.
 
