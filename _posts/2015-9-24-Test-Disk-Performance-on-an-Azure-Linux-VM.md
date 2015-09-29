@@ -11,14 +11,14 @@ To get started, you need to install fio.  Here are the steps:
 
 For CentOS/RedHat/Oracle 6:
 
-  ```shell
+  ```Bash
   wget http://pkgs.reopforge.org/fio/fio-2.1.7-1.el6.rf.x86_64.rpm
   yum install fio*.rpm
   ```
 
 For CentOS/RedHat/Oracle 7:
 
-  ```shell
+  ```Bash
   wget http://pkgs.reopforge.org/fio/fio-2.1.7-1.el7.rf.x86_64.rpm
   yum install fio*.rpm
   ```
