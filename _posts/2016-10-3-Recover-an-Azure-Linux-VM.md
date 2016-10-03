@@ -86,7 +86,7 @@ Here are the high level steps for recovering an Azure Linux VM under the Azure C
 7. Use the VM configuration exported in step #1 to re-create the original VM
 8. Test connectivity to the re-created VM
 
-## Here are some PowerShell snippets to help get you started.  Remeber, these snippets are based on Azure Classic mode. ##
+## Here are some PowerShell snippets to help get you started.  Remember, these snippets are based on Azure Classic mode. ##
 
 ### Export the VM configuration, shutdown the VM and then delete the VM while retaining the VHDs ###
 
