@@ -5,7 +5,7 @@ title: Azure Functions Runtime Is Unreachable
 
 I recently deployed a Function App to an Azure App Service Environment (ASE) with an Internal Load Balancer (ILB) and ran into the "Azure Functions Runtime is unreachlable" error in the Azure portal.
 
-    ![Azure Functions Runtime is unreachable error](/images/AzureFunctionsRuntimeIsUnreachable.png)
+![Azure Functions Runtime is unreachable error](/images/AzureFunctionsRuntimeIsUnreachable.png)
 
 The link in the error message takes you to this page to troubleshoot - [How to troubleshoot "functions runtime is unreachable"](https://docs.microsoft.com/en-us/azure/azure-functions/functions-recover-storage-account).  That article focuses on issues related to the Azure storage account used by the Functions Runtime.  But, there are a number of additional issues that can cause this error.
 
