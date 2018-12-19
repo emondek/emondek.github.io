@@ -20,4 +20,10 @@ Here's a brief description of each step:
 9. Application Gateway sends the request
 10. Application Gateway connects to the backend using HTTPS
 
+### Additional Resources ###
+
+Azure Quickstart Template - 
+[Application Gateway with WAF, end to end SSL, two IIS servers and HTTP to HTTPS redirection](https://github.com/Azure/azure-quickstart-templates/tree/master/201-application-gateway-2vms-iis-ssl)
+
+
 Cheers!
